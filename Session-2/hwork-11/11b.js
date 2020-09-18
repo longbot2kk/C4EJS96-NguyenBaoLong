@@ -1,0 +1,5 @@
+JS> fd(70)
+JS> rt(120)
+JS> fd(70)
+JS> rt(120)
+JS> fd(70)
