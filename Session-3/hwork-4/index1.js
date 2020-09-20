@@ -1,0 +1,1 @@
+let list =["Jeans", "T-Shirt", "Socks"]
