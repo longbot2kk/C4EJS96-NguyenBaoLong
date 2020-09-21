@@ -1,8 +1,13 @@
 let list = ["Jeans", "T-Shirt", "Sock"];
-var n = prompt("Hi there, welcome to shop admin panel, what do you want (C, R, U, D)");
+
 let count = 0;
-while(count<2)
+while(true)
 {
+    var n = prompt("Hi there, welcome to shop admin panel, what do you want (C, R, U, D)");
+    if(n== '' || n===null)
+    {
+        break;
+    }
     switch(n)
     {
         case "r":
