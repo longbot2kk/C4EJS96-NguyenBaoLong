@@ -5,32 +5,21 @@ let a = {
     pm: "The short version of Project Manager, the person in charge of the final result of a project",
     uiux: "UI means User Interface, UX mean User Experience, are the process to define how your products looks and feels",
 }
-console.log(a);
-console.log(Object.keys(a));
-let p= Object.keys(a);
+let n= prompt("enter a keyword")
 var check;
-    let n= prompt("Enter a keyword");
-    for(let i=0;i<a.length;i++)
+for(let prop in a)
+{
+    if(n==prop)
     {
-        if(n===p[i])
-        {
-            check==true;
-            break;
-        }
-        else if(n!==p[i])
-        {
-            check==false;
-        }
+        check==true;
+        break;
     }
-    if(check==true)
-    {
-        alert(a[n]);
-    }
-    else if(check==false)
-    {
-        let d=prompt(`We could not find your word: ${n}, leave your explanation`);
-        alert("done");
-        let o=prompt("Enter a keyword");
-        a.o = d;
-        alert(a.o);
-    }
+}
+if(check==true)
+{
+    alert(aaaaaaaaaaaa);
+}
+else
+{
+    alert("no");
+}
