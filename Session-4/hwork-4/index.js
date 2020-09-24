@@ -5,21 +5,24 @@ let a = {
     pm: "The short version of Project Manager, the person in charge of the final result of a project",
     uiux: "UI means User Interface, UX mean User Experience, are the process to define how your products looks and feels",
 }
-let n= prompt("enter a keyword")
 var check;
+    let n= prompt("enter a keyword")
 for(let prop in a)
 {
     if(n==prop)
     {
-        check==true;
+        check=true;
         break;
     }
 }
 if(check==true)
 {
-    alert(aaaaaaaaaaaa);
+    alert(`${n} \n ${a[n]}`);
 }
-else
+else 
 {
-    alert("no");
+    let p = prompt("We could not find your word: dev, leave your explanation");
+    alert("Done");
+    a[n]=p;
+    alert(`${n} \n ${a[n]}`);
 }
