@@ -30,11 +30,12 @@ let arr = [];
 arr.push(a,b,c,d);
 console.log(arr);
 console.log("====================5.4===================");
-arr[0].providers="Phukienzero Dientuccc";
-arr[1].providers=`Tgdd \n Ddghn \n VhStore`;
-arr[2].providers="Tgdd";
-arr[3].providers="Tgdd";
+arr[0].providers=["Phukienzero Dientuccc"];
+arr[1].providers=["Tgdd, ddghn, vhstore"];
+arr[2].providers=["Tgdd"];
+arr[3].providers=["Tgdd"];
 for(let i=0;i<arr.length;i++)
 {
-    console.log(`#${i+1}. ${arr[i].name} \n ${arr[i].price} \n ${arr[i].providers}`)
+    console.log(`#${i+1}. ${arr[i].name} \n ${arr[i].price} \n ${arr[i].providers[i]}`);
 }
+

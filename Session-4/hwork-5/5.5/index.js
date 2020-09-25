@@ -30,15 +30,26 @@ let arr = [];
 arr.push(a,b,c,d);
 console.log(arr);
 console.log("====================5.5===================");
-arr[0].providers="Phukienzero Dientuccc";
-arr[1].providers="Tgdd"+"Ddghn"+"VhStore";
-arr[2].providers="Tgdd";
-arr[3].providers="Tgdd";
+arr[0].providers=['Phukienzero Dientuccc'];
+arr[1].providers=['Tgdd','Ddghn','VhStore'];
+arr[2].providers=['Tgdd'];
+arr[3].providers=['Tgdd'];
 let n= prompt("enter provider: ");
+var check;
+var temp;
 for(let i=0;i<arr.length;i++)
 {
-    if(n==arr[i].providers)
+    for(let j=0;j<arr.length;j++)
     {
-        console.log(arr[i]);
+        if(n==arr[i].providers[j])
+        {
+            check=true;
+            temp=i;
+            break;
+        }
     }
+    if(check==true)
+{
+    console.log(arr[temp]);
+}
 }
