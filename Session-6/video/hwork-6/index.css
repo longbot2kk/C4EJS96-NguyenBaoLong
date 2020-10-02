@@ -1,0 +1,8 @@
+nav > p >a
+{
+    font-style: italic;
+    color: yellow;
+}
+nav a{
+    font-size: 35px;
+}

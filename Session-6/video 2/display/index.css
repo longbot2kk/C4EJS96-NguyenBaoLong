@@ -1,0 +1,16 @@
+/* span{
+    background: red;
+    display: inline;
+  }
+  div{
+    background: blue;
+  } */
+  span{
+    background: red;
+    display: inline;
+  }
+  div{
+    background: blue;
+    display: inline-table;
+    width: 500px;
+  }
