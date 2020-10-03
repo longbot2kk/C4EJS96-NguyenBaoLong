@@ -76,3 +76,9 @@ a:hover{
     background-color: wheat;
     border: wheat 1px solid;
 }
+.col
+{
+   width: 30%;
+   display: inline-block; 
+   padding-right: 2em;
+}
